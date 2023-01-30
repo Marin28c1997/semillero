@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="prueb.css" rel="stylesheet" />
+    <title>Prueba1</title>
+</head>
+
+<body>
+
+    <div class="contenedor" id="app">
+        <h3 v-text="message" style="text-align: center; color: aqua;"></h3>
+        <form id="forma" name="forma">
+            <div class="elemento">
+                <label for="name">Nombre: </label>
+                <input v-model="name" type="text" placeholder="Ingrese nombres" name="name" required="true" id="name" />
+            </div>
+            <div class="elemento">
+                <label for="lastname">Apellido: </label>
+                <input v-model="lastname" type="text" placeholder="Ingrese apellidos" name="lastname" id="lastname"
+                    required="true" />
+            </div>
+            <div class="elemento">
+                <label for="user">Usuario: </label>
+                <input v-model="user" type="text" placeholder="Ingrese usuario deseado" name="user" required="true"
+                    id="user" />
+            </div>
+            <div class="elemento">
+                <label for="date">Fecha de nacimiento: </label>
+                <input v-model="date" type="date" placeholder="Ingrese apellidos" required="true" name="date" id="dob"
+                    id="date" />
+            </div>
+            <div class="elemento">
+                <input type="button" class="inp" value="Guardar datos" @click="guardarDatos">
+            </div>
+        </form>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script src="prueba.js"></script>
+
+</html>

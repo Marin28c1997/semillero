@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="extra.css" rel="stylesheet" />
+  <title>Extra</title>
+</head>
+
+<body>
+  <label>Inicio > Promociones > Milanesa de pollo + Bebida personal</label>
+  <div class="product-card">
+
+    <div class="a">25% dcto</div>
+    <div class="b"><img src="Imagen3.png" style="width: 100%;"></div>
+    <div class="img-content">
+      <img src="img1.jpg">
+    </div>
+
+    <div class="description-column">
+      <h2>CARNE ASADA</h2>
+      <h3>Milanesa de pollo apanada + arroz + papa francesa + ensalada + bebida personal</h3>
+      <b>
+        <span>Antes</span>
+        <span style="text-decoration: line-through red;">59633</span>
+        <span style="font-size: 30px; color: red;">| Ahora $22.950</span>
+
+        <h3> <strong> PERSONALIZA TU SELECCIÓN </strong></h3>
+
+        <select class="personalizacion" name="personalizacion" required="true">
+
+          <option>Desea inlcuir cubiertos (obligatorio*)</option>
+          <option>Sí</option>
+          <option>No</option>
+        </select>
+
+
+        <select class="personalizacion1" name="personalizacion1" required="true">
+
+          <option>Elije la bebida de tu combo (obligatorio*)</option>
+          <option>Colombiana</option>
+          <option>Coca-cola</option>
+          <option>Pepsi</option>
+          <option>Hugo natural</option>
+        </select>
+        <b></b>
+        <input type="text" class="tex" placeholder="Observaciones" />
+        <b></b>
+        <div>
+          <div class="btn">
+            <button class="minus-button">-</button>
+            <input type="text" id="quantity" value="1" class="quanti">
+            <button class="plus-button">+</button>
+          </div>
+          <button class="add-button">Agregar</button>
+        </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script src="extra.js"></script>
+
+</html>

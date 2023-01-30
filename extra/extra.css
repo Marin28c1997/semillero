@@ -1,0 +1,173 @@
+.product-card {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px;
+  display: flex;
+}
+
+.img-content {
+  position: relative;
+  overflow: hidden;
+}
+
+.img-content img {
+  position: 100%;
+  border-radius: 10px;
+}
+
+.image-column img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.description-column {
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description-column h2 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.description-column p {
+  font-size: 16px;
+  color: gray;
+  margin: 0 20px;
+}
+
+.description-column ul {
+  list-style: none;
+  padding: 0;
+  font-size: 16px;
+  color: gray;
+  margin: 20px 0;
+}
+
+.add-button {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.a {
+  background-color: red;
+  height: 40px;
+  width: 80px;
+  position: absolute;
+  z-index: 5;
+  color: aliceblue;
+  margin-left: 420px;
+  margin-top: 30px;
+}
+.product-card .a {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.b {
+  background-color: red;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  position: absolute;
+  margin-top: 20px;
+  z-index: 50;
+  color: aliceblue;
+  text-align: center;
+  margin-left: 370px;
+}
+label {
+  color: red;
+  margin-left: 30px;
+}
+
+select {
+  color: red;
+  background-color: white;
+  height: 30px;
+  width: 80%;
+  border-radius: 8px;
+  margin: 2px 0;
+}
+.tex {
+  color: red;
+  background-color: white;
+  height: 60px;
+  width: 80%;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+h2 {
+  background-color: red;
+  width: 90%;
+  height: 40px;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+}
+
+.description-column h2 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.btn {
+  color: red;
+  background: transparent;
+  width: 146px;
+  border-width: 2px;
+  height: 22px;
+  border-style: solid;
+  border-radius: 5px;
+  display: flex;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.minus-button {
+  border-color: transparent;
+  background: white;
+  width: 100%;
+  color: red;
+  font-size: 20px;
+}
+
+.quanti {
+  border-color: transparent;
+  background-color: transparent;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+}
+.plus-button {
+  border-color: transparent;
+  background: white;
+  width: 100%;
+  height: 100%;
+  color: red;
+  font-size: 20px;
+}
+
+.personalizacion {
+  font-size: 22px;
+}
+
+.personalizacion1 {
+  font-size: 22px;
+}
